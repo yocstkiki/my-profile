@@ -1,0 +1,210 @@
+h2 {
+  color: black;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+
+body {
+  color: rgb(0, 0, 0);
+  color: rgb(30, 30, 30);
+  color: rgb(120, 120, 120);
+  color: rgb(240, 240, 240);
+  color: rgb(255, 255, 255);
+}
+
+
+body {
+  color: rgb(10, 10, 10);
+  background-color: #DFDDDF;
+}
+
+
+body {
+  background-image: url(images/IMG_4906.HEIC);
+}
+
+
+body {
+  font-family: Times, serif;
+  font-family: Arial, sans-serif;
+  font-family: Courier, monospace;
+}
+
+
+body {
+  font-size: 30px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+
+body {
+  color: rgb(30, 30, 30);
+  text-align: justify;
+  text-decoration: none;
+}
+
+
+body {
+  font-weight: lighter;
+  font-weight: normal;
+  font-weight: bold;
+  font-weight: bolder;
+}
+
+
+h1, h2, h3 {
+  font-family: "Helvetica", sans-serif; /* if all headers use Helvetica */
+}
+
+
+a {
+  color: darkgrey;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: purple;
+  text-decoration: none;
+}
+
+
+body {
+  color: black;
+}
+h1 {
+  color: black;
+}
+
+<img src="profile.jpg" id="logo">
+
+#logo {
+  width: 2px;
+}
+
+
+<img src="IMG_8454.HEIC" class="img-circle">
+<img src="IMG_5473.HEIC" class="img-circle">
+<img src="IMG_5177.HEIC" class="img-circle">
+<img src="IMG_1264.HEIC" class="img-circle">
+
+
+.img-circle { /* select all elements with the class="img-circle" */
+  border-radius: 50%;
+}
+
+<img src="IMG_8454.HEIC" class="img-circle img-bordered">
+<img src="IMG_5473.HEIC" class="img-circle img-bordered">
+<img src="IMG_5177.HEIC" class="img-circle img-bordered">
+<img src="IMG_1264.HEIC" class="img-circle img-bordered">
+
+
+.img-circle {
+  border-radius: 50%;
+}
+.img-bordered {
+  border: 10px solid red;
+}
+
+
+<img src="IMG_8454.HEIC" class="img-circle img-bordered">
+<img src="IMG_5473.HEIC" class="img-circle img-bordered">
+<img src="IMG_5177.HEIC" class="img-circle img-bordered">
+<img src="IMG_1264.HEIC" class="img-circle img-bordered" id="leader">
+
+
+#leader {
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+}
+
+
+.text-justify { /* select all elements with class="justify" */
+  text-align: justify;
+}
+
+#banner { /* select the unique element with id="banner" */
+  background-image: url("example.jpg");
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  color: black;
+}
+.text-black {
+  color: black;
+}
+#bio {
+  color: green;
+}
+
+p {                 /* Least specific */
+  color: black;
+}
+.text-black {         /* More specific */
+  color: black;
+}
+#bio {              /* Even more specific  */
+  color: green;
+}
+
+.margin: 80px;
+.padding: 40px;
+
+border-top: 1px solid red;
+border-right: 2px dotted black;
+border-bottom: 1px dashed green;
+border-left: 2px dotted black;
+
+.perfect-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+background: white;
+padding: 30px;
+border-radius: 4px;
+box-shadow: 0 10px 30px rgba 0,0,0,0.1;
+
+
+width: 150px;
+margin: 0px auto
+
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+
+
+
+
